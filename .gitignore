@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+.kotlin/
+.tooling/
+local.properties
+**/build/
+captures/
+dist/
+CHANGELOG.md
+docs/CLOUDBASE_DEPLOY.md
+keystore.properties
+*.jks
+*.keystore
+*.iml

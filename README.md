@@ -66,9 +66,9 @@ app/build/outputs/apk/debug/app-debug.apk
 
 ## 部署共同编辑服务
 
-云函数源码位于 [`cloudbase/ledger-sync`](cloudbase/ledger-sync)。部署步骤见 [`docs/CLOUDBASE_DEPLOY.md`](docs/CLOUDBASE_DEPLOY.md)。
+云函数源码位于 [`cloudbase/ledger-sync`](cloudbase/ledger-sync)。请参考云服务商的官方文档，把它部署到你自己的 Node.js 云函数环境中。
 
-部署时需要自行生成家庭同步码，并将其 SHA-256 摘要配置到 CloudBase 环境变量。仓库只包含生成脚本和配置示例，不包含真实同步码、云环境地址、数据库内容或发布密钥。
+部署时需要自行生成家庭同步码，并只在自己的云端控制台中配置对应摘要。公开仓库不提供具体账户凭证、网关路由或云端运维参数，也不包含真实同步码、云环境地址、数据库内容或发布密钥。
 
 ## 测试
 
@@ -84,9 +84,7 @@ app/build/outputs/apk/debug/app-debug.apk
 ## 安装与使用
 
 - 安装及日常使用：[`docs/INSTALL.md`](docs/INSTALL.md)
-- CloudBase 部署：[`docs/CLOUDBASE_DEPLOY.md`](docs/CLOUDBASE_DEPLOY.md)
 - 正式签名与升级：[`docs/RELEASE_SIGNING.md`](docs/RELEASE_SIGNING.md)
-- 项目改动记录：[`CHANGELOG.md`](CHANGELOG.md)
 
 ## 隐私与安全提醒
 
